@@ -1,0 +1,58 @@
+.container-fluid{
+    padding: 0;
+}
+
+.content{
+display: flex;
+flex-flow: column;
+width: 100%;
+margin: 0;
+align-items: center;
+}
+.admin{
+    flex-flow: column;
+    width: 50%;
+}
+
+#pizza{
+    position: relative;
+    border-radius: 30px;
+    width: 95%;
+    display: flex ;
+    flex-flow: column;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.view{
+    display: grid;
+    grid-template-columns : 3fr 1fr
+}
+
+#button {
+    padding: 10px;
+    border-radius:25px;
+    background-color: rgb(0 141 241);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    font-family: Georgia;
+    }
+  
+    #button.disabled{
+      padding: 10px;
+      border-radius:25px;
+      background-color: rgb(126 196 247);
+      color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border: none;
+      font-family: Georgia;
+      }
+
+      .item{
+          font-weight: 600;
+      }
+      h1{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }

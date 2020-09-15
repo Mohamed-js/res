@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="res.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakhr-Al-Deen</title>
+    <link rel="icon" href="img.png">
+</head>
+<body>
+  
+    <!-- Container that catches all Nav content  -->
+        <div class="container">
+            <!-- all Nav content "All equal" -->
+            <div class="content pizza">
+                <!--Admin adding control -->
+                <div class="hide"style="display: flex;"> 
+                    <input type="text" placeholder="  Item" id="name" value="">
+                    <input type="number" placeholder="  Small Price" id="lp" value="">
+                    <input type="number" placeholder="  Big Price" id="hp" value="">
+                    <br>
+                    <input type="file" style="display: none;" accept="image/gif, image/jpeg, image/png" name="image" id="file" >
+                    
+                    <p><label for="file" style="cursor: pointer; font-size: 50 px;">Upload Image</label></p>
+                    <br>
+                    <div id="check"></div>
+                    <br> 
+                    <button id="button" class="button disabled" >Add New</button>
+                </div>
+
+                <!-- Name of nav -->
+                <h1>Pizza</h1>
+
+                <!-- Cost and Order -->
+                <ul id="order">
+                    <li>Cost is:</li>
+                    <li><button id="order-botton">Order Now!</button></li>
+
+                </ul>
+                <!-- Selected Nav content  -->
+                <ul id="pizza">
+                
+                
+                </ul>
+
+        </div>
+    </div>
+
+    
+
+
+    </div>
+    
+<script src="res.js"></script>
+
+
+
+</body>
+</html>
